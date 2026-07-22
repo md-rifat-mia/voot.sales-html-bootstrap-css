@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.list-container ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+.list-container ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:768px){
+    .list-container ul{
+        display: grid;
+        margin: 0px;
+        gap: 4px;
+    }
+    .list-container ul li a{
+        font-family: 5px;
+    }
+}
